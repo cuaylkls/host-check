@@ -16,7 +16,7 @@ then
 	exit 2
 fi
 
-if [-z "$3" ]
+if [ -z "$3" ]
 then
 	echo "Missing argument 3" 1>&2
 	exit 3
